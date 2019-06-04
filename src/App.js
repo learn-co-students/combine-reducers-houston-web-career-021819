@@ -3,6 +3,7 @@ import AuthorInput from './components/AuthorInput';
 import Authors from './components/Authors';
 import BookInput from './components/BookInput';
 import Books from './components/Books';
+import { combineReducers } from "redux";
 
 
 export class App extends Component {
